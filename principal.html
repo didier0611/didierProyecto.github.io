@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>principal</title>
+    <link rel="stylesheet" href="estilo_principal.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <t>COMPRAVENTA <span> AUTO</span> DM</t>
+                </li>
+
+                <li><a href="#principal">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+
+                <a href="https://www.facebook.com/?locale=es_LA">
+                    <img src="logofb.png" alt="facebook" title="facebook" width="20" height="20">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="logoinsta.png" alt="facebook" title="instagram" width="20" height="20">
+                </a>
+                <a href="https://www.whatsapp.com/?lang=es_LA">
+                    <img src="logowpp.png" alt="facebook" title="whatsapp" width="20" height="20">
+                </a>
+            </ul>
+        </nav>
+
+    </header><br><br><br><br><br>
+
+
+
+    <section id="principal">
+        <h2>Que esperas!!!!!!!!</h2><br><br>
+        <p><strong>Es la oportunidad de obtener el vehiculo de tus sueños al precio mas bajo del mercado y con
+                las mejores garantias....</strong>
+        </p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <center><button onclick="location.href='catalogo.html'">Mira nuestro catalogo</button></center>
+    </section>
+
+    <section id="nosotros">
+
+        <video autoplay loop muted id="video-fondo">
+            <source src="video-fondo-nosotros.mp4" type="video/mp4">
+            Tu navegador no admite la reproducción de video.
+        </video>
+        <div class="contenedor-texto">
+            <h1>NOSOTROS</h1><br><br><br><br>
+            <p>Una vitrina especializada en autos de gama alta de Medellín. En Compraventa AUTO DM amamos los carros de
+                lujo y disfrutamos compartiendo esta pasión, por esto buscamos unir el carro ideal con la
+                persona ideal basándonos en las expectativas y necesidades de nuestros clientes y amigos,
+                acercándolos también a nuestro catálogo de servicios.</p>
+        </div>
+    </section>
+
+
+    <section id="servicios">
+        <nav>
+            <ul>
+                <li>
+                    <h1> <em>SERVICIOS</em></h1><br>
+                </li>
+                <li><a>Importación</a></li>
+                <li><a>Posventa</a></li>
+                <li><a>Compra y Venta</a></li>
+                <li><a>Tramites</a></li> <br><br><br><br><br><br><br><br><br> <br><br><b><br><br><br><br>
+            </ul>
+        </nav>
+
+        <h2><em>IMPORTAMOS DEL OTRO LADO DEL MUNDO HASTA TU GARAJE</em></h2>
+        <P>Sabemos que no te conformas fácilmente. Por eso ponemos a tu disposición nuestro servicio de
+            importación de vehículos exclusivos desde cualquier lugar con el soporte, experiencia y
+            tranquilidad que solo brinda COMPRAVENTA AUTO DM.</P>
+
+
+    </section>
+
+    <section id="contacto">
+        <center><h1>Contacto</h1></center>
+        <form name="fotmulario" action="formulario.php" method="get">
+            <fieldset>
+            <legend><h2>Ingresa los datos</h2></legend>
+            <p><strong>Nombre:<input type="text"name="nombre" placeholder="ingresa tu nombre" size="50" /></strong></p>
+            <p><strong>Apellido:<input type="text"name="apellido" placeholder="ingresa tu apellido"  size="50" /></strong></p>
+    
+            <p><strong>Telefono:<input type="tel" name="telefono" placeholder="Ingresa tu numero telefonico" size="15"></strong>
+            
+            <p><strong>Direccion:<input type="text" name="direccion" placeholder="Ingrea tu direccion" size="50"></strong>
+             
+            <p><strong>Genero:</strong><p>
+                <input type="radio" name="genero" value="femenino" checked="checked">Femenino
+                <input type="radio" name="genero" value="masculino">Masculino
+    
+            <p><strong>Email:</strong><input type="email"name="email" placeholder="ejemplo@gmail.com" size="30" required/></p>
+            <p><strong>Sugerencias:</strong><textarea type="textarea"name="sugerencias" placeholder="Escribe tus sugerencias"cows="4"cows="50" size="50" required></textarea></p>
+            <p><strong>Selección de Horario Disponible:</strong></p>
+            <p><select name="registro"><option value="envio">--------</option>
+                                       <option value="envio">Mañana</option>
+                                       <option value="envio">Tarde</option>
+                                       <option value="envio">Noche</option>
+                                       <option value="envio">Fin de Semana</option>
+            </select></p>
+            
+             <p><input type="submit" name="enviar" value="Enviar">
+                <input type="reset" name="limpiar" value="Borrar">
+    
+            </fieldset>
+        </form>
+        </section>
+
+        <h3>UBICACION</h3>
+        <h4>Cra. 78 #45A-53, Los Pinos, Medellín, La América, Medellín, Antioquia</h4>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.0870662504526!2d-75.59937102578594!3d6.252258326257562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290b259034c3%3A0xa8e848af2265021a!2sCompraventa%20Autos%20la%2078!5e0!3m2!1ses!2sco!4v1694821637696!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</body>
+</html><br><br><br><br><br>
+<footer>
+    <p>&copy; 2023 COMPRAVENTA AUTO DM, marca perteneciente al grupo Hearst Magazines International
+              Hearst Colombia S.L. Todos los derechos sobre las marcas, imágenes y contenidos están protegidos.</p>
+</footer>
